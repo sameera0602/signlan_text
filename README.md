@@ -1,5 +1,7 @@
 # Sign Language to Text Conversion 🤟🔤
 
+> **Collaborative Project** by [Sameera](https://github.com/sameera0602) & [Irfan](https://github.com/IrfanM-7)
+
 A real-time sign language recognition system built using **MediaPipe**, **OpenCV**, and **scikit-learn**. This project captures hand landmarks from video input, extracts spatial features, and uses a Random Forest classifier to translate American Sign Language (ASL) gestures into text.
 
 ---
@@ -30,8 +32,8 @@ Make sure you have Python 3.8+ installed.
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/IrfanM-7/Sign-Language-to-Text-conversion.git
-    cd Sign-Language-to-Text-conversion
+    git clone https://github.com/sameera0602/signlan_text.git
+    cd signlan_text
     ```
 
 2.  **Create a Virtual Environment (Optional but Recommended)**
@@ -59,7 +61,7 @@ To use the pre-trained model for real-time sign detection:
 ## 📂 Project Structure
 
 ```text
-📦 Sign-Language-to-Text-conversion
+📦 signlan_text
  ┣ 📂 models/                 # Serialized models and encoders
  ┃ ┣ 📜 label_encoder.pkl     # Encoded ASL class mappings
  ┃ ┗ 📜 sign_language_model.pkl # Trained Random Forest model
