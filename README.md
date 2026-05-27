@@ -1,6 +1,6 @@
 # Sign Language to Text Conversion 🤟🔤
 
-> **Collaborative Project** by [Sameera](https://github.com/sameera0602) & [Irfan](https://github.com/IrfanM-7)
+> **Collaborative Project** by [Sameera](https://github.com/sameera0602), [Irfan](https://github.com/IrfanM-7) & [Shri Sudarsana](https://github.com/shrisudarsana)
 
 A real-time sign language recognition system built using **MediaPipe**, **OpenCV**, and **scikit-learn**. This project captures hand landmarks from video input, extracts spatial features, and uses a Random Forest classifier to translate American Sign Language (ASL) gestures into text.
 
